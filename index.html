@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chirp</title>
+    <link type="text/css" href="myless.css" rel="stylesheet">
+    <script src="myjs.js"></script>
+</head>
+<body>
+<header class="myheader">
+    <div class="logo">
+        <h1> Front End Ninja </h1> <h2>Application for understand node</h2>
+    </div>
+    <div class="login-options">
+        <div class="login-logout">
+            <a href="#" class="login-button">Login </a><span> or </span><a href="#" class="register-button"> Register</a>
+
+        </div>
+        <div class="logout-option">
+             <span class="logout-message"></span>
+             <a href="#" class="logout-button hidden">Logout</a>
+        </div>
+       
+    </div>
+</header>
+<article class="login">
+    <div class="logon-box">
+        <h2 class="login-box-option">Log In</h2>
+        <input class="username" type="text" placeholder="Username">
+        <input class="password" type="password" placeholder="password"><br>
+        <button class="submit-button">Log In</button>
+        <button class="new-user-button hidden">Register</button>
+        <p class="login-message"></p>
+    </div>
+</article>
+<article class="messaging-app hidden">
+    <div class="messaging-area">
+        <h2 class="user-details"></h2>
+        <textarea rows="5" cols="70" class="message-box"></textarea>
+        <input type="button" value="Chirp!" class="chirp-button">
+    </div>
+    <div class="saved-masseges">
+        <h2>Your all Posts</h2>
+        <div class="post-messages"></div>
+    </div>
+
+</article>
+</body>
+</html>

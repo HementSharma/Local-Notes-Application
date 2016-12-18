@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+.hidden {
+  display: none;
+}
+.visible {
+  display: inline-block;
+}
+.myheader {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+  padding-top: 15px;
+}
+.myheader .logo {
+  width: 50%;
+  text-align: left;
+  padding-left: 10%;
+}
+.myheader .logo h1 {
+  display: inline-block;
+  float: left;
+  height: 45px;
+  font-size: 18px;
+  line-height: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.myheader .logo h2 {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.myheader .login-options {
+  width: 50%;
+  text-align: right;
+  padding-right: 10%;
+}
+.myheader .login-options .login-button,
+.myheader .login-options .register-button {
+  color: #00B7FF;
+  text-decoration: none;
+  cursor: auto;
+}
+.myheader .login-options .logout-button {
+  color: #00B7FF;
+  text-decoration: none;
+  cursor: auto;
+}
+.login {
+  display: flex;
+  flex-wrap: wrap;
+}
+.login .login-box-option {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.login .logon-box {
+  width: 43%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.login .username,
+.login .password {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 20px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.login .submit-button,
+.login .new-user-button {
+  width: 80px;
+  margin-bottom: 30px;
+  height: 34px;
+  border-radius: 5px;
+  color: #fff;
+  border-color: #204d74;
+  background-color: #286090;
+}
+.messaging-app {
+  margin-left: 33%;
+  width: 33%;
+}
+.messaging-app .messaging-area .chirp-button {
+  display: block;
+  float: right;
+  margin-right: 20px;
+  background-color: #b1dbff;
+  margin: 10px 20px 10px 0;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.messaging-app .saved-masseges {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.messaging-app .post-messages .new-messages {
+  background-color: #f2f9ff;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.messaging-app .post-messages .new-messages p {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.messaging-app .post-messages .new-messages span {
+  font-size: 12px;
+}
+.messaging-app .post-messages .new-messages span:last-child {
+  float: right;
+}
+h2 {
+  font-size: 18px;
+}
